@@ -1,13 +1,12 @@
 ---
 title: Prologue
 keywords: sample
-summary: "How did statistical mechanics come about?"
+toc: false
+summary: "What does Statistical Mechanics attempt to describe?"
 sidebar: product1_sidebar
 permalink: p1_sample1.html
 folder: product1
 ---
-
-## What does Statistical Mechanics attempt to describe?
 
 What systems do we describe when we use the words internal energy, temperature, pressure, heat capacity and entropy? These are words we often use to describe systems which are made of up many (identical, non-interacting) bodies - say the collection of gas molecules in this room, a box of photons (blackbody radiation), white dwarves, neutron stars, quantum fluids ('free' electrons in metals) ... the list is endless! 
 

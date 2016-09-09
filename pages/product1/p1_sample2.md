@@ -1,13 +1,12 @@
 ---
 title: Microstates, meet Macrostate
 keywords: sample
+toc: false
 summary: "Understanding microstates and macrostates."
 sidebar: product1_sidebar
 permalink: p1_sample2.html
 folder: product1
 ---
-
-## Let's flip some coins
 
 Consider a coin flipping machine capable of flipping two *identical and *fair* coins; in a single run, the machine flips the coins and outputs the state of the coins, say, HT. The entire set of output is HH, HT, TH, HH. 
 
