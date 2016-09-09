@@ -9,9 +9,11 @@ folder: product1
 
 ### What is Stat Mech 101?
 
-This site is designed to be a primer in statistical mechanics for people armed with no more maths/physics beyond A-level. The aim of the site is to introduce and elucidate the fundamental ideas of the subject in all its conceptual glory and difficulty. Rigorous mathematical proofs, easily accessible from standard undergraduate textbooks, are not included and maths is kept to the bare minimum. Rather, readers are encouraged to think deeply about the examples given in the text which motivate the ideas of the subject. 
+This site is designed to be a primer in statistical mechanics for people armed with no more than basic probability. The aim of the site is to introduce and elucidate the fundamental ideas of the subject in all its conceptual glory and difficulty. Rigorous mathematical proofs, easily accessible from standard undergraduate textbooks, are not included and maths is kept to the bare minimum. Rather, readers are encouraged to think deeply about the examples given in the text which motivate the ideas of the subject. 
 
-To emphasise on the fundamental and profound nature of the theory, this text keeps allusions to thermodynamic concepts to a minimum and approaches the theory from the point of view of information. In the current version of the text I have yet to include any applications of statistical mechanics to real systems; this will ensue in future versions. 
+To emphasise the fundamental and profound nature of the theory, this text keeps allusions to thermodynamic concepts to a minimum and approaches the theory from the point of view of information theory. In the current version of the text I have yet to include any applications of statistical mechanics to real systems; this will ensue in future versions. 
+
+The initial content of this site was based on a 2-hour workshop given to A-level students attending [Splash at Oxford 2016][Splash]. 
 
 ### What is Statistical Mechanics and why should you bother?
 
