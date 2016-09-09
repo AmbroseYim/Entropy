@@ -34,7 +34,7 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Microstates meet Macrostates
+    - title: Microstates, meet Macrostate
       url: /p1_sample2.html
       output: web, pdf
 

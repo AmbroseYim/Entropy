@@ -1,25 +1,24 @@
 ---
 title: Prologue
 keywords: sample
-summary: "This is just a sample topic..."
+summary: "How did statistical mechanics come about?"
 sidebar: product1_sidebar
 permalink: p1_sample1.html
 folder: product1
 ---
 
-## Sample Content
+## What does Statistical Mechanics attempt to describe?
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+What systems do we describe when we use the words internal energy, temperature, pressure, heat capacity and entropy? These are words we often use to describe systems which are made of up many (identical, non-interacting) bodies - say the collection of gas molecules in this room, a box of photons (blackbody radiation), white dwarves, neutron stars, quantum fluids ('free' electrons in metals) ... the list is endless! 
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+A common problem in approaching these many body systems is that it is virtually impossible to obtain *complete information* about them. How can we keep track of the motion of every $6.022 \times 10^{23}$ molecules in a mole of gas? Even if we could have absolute information (position and momentum) on every particle in a box of gas, it is stupid to work out the microscopic motions of every particle and then piece them all together to paint the macroscopic picture when we are only interesting in the *mean* or overall behaviour of the system.
+
+You might think that we are safe from the terrors of incomplete information when we deal with simple systems with one or two bodies. Even with simple systems the imprecision in our instruments introduces an element of *ignorance* in every measurement and it is impossible to have absolute certainty in a measurement. Systems we study (in a laboratory) are never in isolation. They are always embedded in an environment and the interaction between the environment and our system always disturbs the system and we lose track of some information about our system. In the quantum world, the entanglement between the system and the environment leads to quantum decoherence, a transition from a state of complete information to partial ignorance. [^Binney]
+
+An intuitive approach is to use *probabilities* to deal with systems with *incomplete* *information* . The weapon here is, you guessed it, *Statistical* *Mechanics*. It is important to stress that statistical mechanics deals with incomplete information, and we will keep on returning to this idea throughout this course. 
 
 
-## More sample content
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+[^Binney]: pp. 151, Binney and Skinner
 
 {% include links.html %}
