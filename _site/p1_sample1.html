@@ -3,9 +3,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="This is just a sample topic...">
+<meta name="description" content="What does Statistical Mechanics attempt to describe?">
 <meta name="keywords" content=" sample">
-<title>Sample 1 Topic (Product 1) | Jekyll theme for documentation</title>
+<title>Prologue | Statistical Mechanics: A Primer</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 
@@ -35,7 +35,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="" href="http://idratherbewriting.comfeed.xml">
+<link rel="alternate" type="application/rss+xml" title="" href="AmbroseYim.github.iofeed.xml">
 
     <script>
         $(document).ready(function() {
@@ -88,7 +88,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Jekyll Documentation Theme</span></a>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Stat Mech 101</span></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -143,16 +143,12 @@
                         <li><a href="p1_landing_page.html">Product 1</a></li>
                         
                         
-                        
-                        <li><a href="p2_landing_page.html">Product 2</a></li>
-                        
-                        
                     </ul>
                 </li>
                 
                 
                 
-			<li><a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:tomjohnson1492@gmail.com?subject=Jekyll documentation theme f eedback&body=I have some feedback about the Sample 1 Topic (Product 1) page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a><li>
+			<li><a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:yim.ambrose@gmail.com?subject=Stat Mech 101 f eedback&body=I have some feedback about the Prologue page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a><li>
 
 		
                 <!--comment out this block if you want to hide search-->
@@ -168,7 +164,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Sample 1 Topic (Product 1)">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Prologue">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -204,40 +200,26 @@
 
 
 <ul id="mysidebar" class="nav">
-    <li class="sidebarTitle">Product1 1.0</li>
+    <li class="sidebarTitle">Stat Mech 101 </li>
     
     
     
         
     
     <li>
-        <a href="#">Getting Started</a>
+        <a href="#">Introduction</a>
         <ul>
             
             
             
-            <li><a href="p1_landing_page.html">Product 1 home</a></li>
+            <li><a href="p1_landing_page.html">About Stat Mech 101</a></li>
             
             
             
             
             
             
-            <li class="active"><a href="p1_sample1.html">Sample 1</a></li>
-            
-            
-            
-            
-            
-            
-            <li><a href="p1_sample2.html">Sample 2</a></li>
-            
-            
-            
-            
-            
-            
-            <li><a href="p1_sample3.html">Sample 3</a></li>
+            <li class="active"><a href="p1_sample1.html">Prologue</a></li>
             
             
             
@@ -247,33 +229,41 @@
         
     
     <li>
-        <a href="#">Another heading</a>
+        <a href="#">Basics</a>
         <ul>
             
             
             
-            <li><a href="p1_sample4.html">Sample 4</a></li>
+            <li><a href="p1_sample2.html">Microstates, meet Macrostate</a></li>
             
             
             
             
             
             
-            <li><a href="p1_sample5.html">Sample 5</a></li>
+            <li><a href="p1_sample3.html">Boltzmann Entropy</a></li>
             
             
             
             
             
             
-            <li><a href="p1_sample6.html">Sample 6</a></li>
+            <li><a href="p1_sample4.html">Shannon Entropy</a></li>
             
             
             
             
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Applications</a>
+        <ul>
             
             
-            <li><a href="p1_sample7.html">Sample 7</a></li>
+            
+            <li><a href="p1_sample7.html">Boltzmann distribution</a></li>
             
             
             
@@ -297,7 +287,7 @@
     <!-- Content Column -->
     <div class="col-md-9">
         <div class="post-header">
-   <h1 class="post-title-main">Sample 1 Topic (Product 1)</h1>
+   <h1 class="post-title-main">Prologue</h1>
 </div>
 
 
@@ -305,31 +295,10 @@
 <div class="post-content">
 
    
-    <div class="summary">This is just a sample topic...</div>
+    <div class="summary">What does Statistical Mechanics attempt to describe?</div>
    
 
     
-    
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
-
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
-
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
-
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
-  
-});
-</script>
-
-<div id="toc"></div>
 
     
 
@@ -337,25 +306,21 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/tomjohnson1492/documentation-theme-jekyll/blob/gh-pages/pages//_pages/product1/p1_sample1.html.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-    
+  <p>What systems do we describe when we use the words internal energy, temperature, pressure, heat capacity and entropy? These are words we often use to describe systems which are made of up many (identical, non-interacting) bodies - say the collection of gas molecules in this room, a box of photons (blackbody radiation), white dwarves, neutron stars, quantum fluids (‘free’ electrons in metals) … the list is endless!</p>
 
-    
+<p>A common problem in approaching these many body systems is that it is virtually impossible to obtain <em>complete information</em> about them. How can we keep track of the motion of every <script type="math/tex">6.022 \times 10^{23}</script> molecules in a mole of gas? Even if we could have absolute information (position and momentum) on every particle in a box of gas, it is stupid to work out the microscopic motions of every particle and then piece them all together to paint the macroscopic picture when we are only interesting in the <em>mean</em> or overall behaviour of the system.</p>
 
-  <h2 id="sample-content">Sample Content</h2>
+<p>You might think that we are safe from the terrors of incomplete information when we deal with simple systems with one or two bodies. Even with simple systems the imprecision in our instruments introduces an element of <em>ignorance</em> in every measurement and it is impossible to have absolute certainty in a measurement. Systems we study (in a laboratory) are never in isolation. They are always embedded in an environment and the interaction between the environment and our system always disturbs the system and we lose track of some information about our system. In the quantum world, the entanglement between the system and the environment leads to quantum decoherence, a transition from a state of complete information to partial ignorance. <sup id="fnref:Binney"><a href="#fn:Binney" class="footnote">1</a></sup></p>
 
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>An intuitive approach is to use <em>probabilities</em> to deal with systems with <em>incomplete</em> <em>information</em> . The weapon here is, you guessed it, <em>Statistical</em> <em>Mechanics</em>. It is important to stress that statistical mechanics deals with incomplete information, and we will keep on returning to this idea throughout this course.</p>
 
-<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-
-<h2 id="more-sample-content">More sample content</h2>
-
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.</p>
-
-<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-
+<div class="footnotes">
+  <ol>
+    <li id="fn:Binney">
+      <p>pp. 151, Binney and Skinner <a href="#fnref:Binney" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
 
     <div class="tags">
@@ -371,8 +336,8 @@ $('#toc').on('click', 'a', function() {
 <footer>
             <div class="row">
                 <div class="col-lg-12 footer">
-               &copy;2016 Your company. All rights reserved. <br />
- Site last generated: Sep 9, 2016 <br />
+               &copy;2016 . All rights reserved. <br />
+ Site last generated: Sep 10, 2016 <br />
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>
