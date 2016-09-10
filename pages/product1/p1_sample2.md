@@ -16,10 +16,10 @@ We perform an experiment to record the frequency of different outputs for 100000
 
 | Output | Probability |
 | :-: | :-: |
-| HH | $$ 1/4 $$ |
-| HT | $$ 1/4 $$ |
-| TH | $$ 1/4 $$ |
-| TT | $$ 1/4 $$ |
+| HH | 1/4 |
+| HT | 1/4 |
+| TH | 1/4 |
+| TT | 1/4 |
 | -- | ----- |
 
 Notice how these outputs all have the same probability. These configurations of individual coins are called the *microstates* of the coins.
@@ -43,9 +43,9 @@ It might be helpful to let this point sink in and slowly digest this idea. HT an
 
 | Macrostate | prob | $$ \Omega $$ |
 | :--: :--: | :--: |
-| 2H0T | $$ 1/4 $$ | 1 |
-| 1H1T | $$ 1/2 $$ | 2 |
-| 0H2T | $$ 1/4 $$ | 1 |
+| 2H0T | 1/4 | 1 |
+| 1H1T | 1/2 | 2 |
+| 0H2T | 1/4 | 1 |
 | ------- |
 
 where $$ \Omega $$ denotes the number of microstates corresponding to each  *macrostate*. 
